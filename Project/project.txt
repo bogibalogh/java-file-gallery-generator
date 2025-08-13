@@ -1,0 +1,29 @@
+Írjon egy java programot ami parancssor argumentumként kap egy képeket tartalmazó gyöjérkönyvtárat és a program a következőket csinálja:
+1.Ezekhez a képekhez készíts egy statikus html generátort
+2.ha könyvtárat ad meg akkor rekurzivan bejárja a könyvtárat és elkészíti hozzájuk a html fájlokat.
+ illetve minden könyvtárban elkészít egy index.html fájlt ami összefogja az adott könyvtárban lévő képeket
+3. ha megnyitjuk az index.html-t akkor megjeleniti a kép neveit úgy hogy ha rákattintunk az egyik kép nevére akkor bejön az adott kép nevével azonos html 
+4. és ha rákattintunk a képre akkor jöjjön be a következő kép,illetve ha nincs az adott könyvtárba kép (utolsó kép) akkor saját magát jeleniti meg
+5. a kép html felett jelenjen meg a kép neve és legyen egy jobbra balra nyíl amivel szintén lehet ugrálni a képek közott
+6. legyen felettük egy felfele mutató nyil amire ha rákattintunk akkor az adott könyvtár index.html-re ugrik
+7. a konyvtárban lévő alkönyvtárakat jelenítsük meg és ezek is kattinthatóak, tehát ha belemegyünk az alkönyvtárba akkor az adott könyvtár index.html jelenik meg (ugye itt is minden képhez van html állomány, ami megegyezik a kép nevével).
+8. Majd ugyan ezt csinákuk mint a 3. 4. 5. sorban illetve ha a vissza fele nyílra rákattintuk akkor vissza megy az adott könyvtár index.html-re
+9.illetve legyen egy balra nyíl amivel visszalépunk a szülő könyvrárba
+10. ha egy alkönyvtárnban van még alkönyvtár akkor azokat is megjelenítjük és ha belelépünk akkor megjelennek a képek és a ugyan úgy mint a 3. 4. 5. pontban leírtak alapján müködik
+11. legyen felül egy Start page amire ha rákattintunk akkor vissza ugrik a gyökér könyvtárba
+
+
+Az index.html hasonlóan nézzen ki:
+
+Start Page
+-------------------------
+Directories:
+ 
+
+-----------------------
+Images:
+
+
+
+A Directories alaott jelennek meg az alkönyvtárak
+Az Images alatt pedig a képek
